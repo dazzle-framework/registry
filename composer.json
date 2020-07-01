@@ -1,0 +1,39 @@
+{
+    "name": "dazzlesoftware/registry",
+    "type": "library",
+    "description": "Dazzle Registry Package",
+    "keywords": ["dazzle", "framework", "registry"],
+    "homepage": "https://github.com/dazzle-framework/registry",
+    "license": "GPL-3.0-or-later",
+    "require": {
+       "php": "^7.3.0",
+        "dazzlesoftware/utilities": "^1.0"
+    },
+    "require-dev": {
+        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "symfony/yaml": "^3.4|^4.4|^5.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "conflict": {
+        "symfony/yaml": "<3.4"
+    },
+    "suggest": {
+        "symfony/yaml": "Install symfony/yaml if you require YAML support."
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\Registry\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dazzle\\Registry\\UnitTests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-2.0-dev": "2.0-dev"
+        }
+    }
+}
