@@ -7,10 +7,10 @@
     "license": "GPL-3.0-or-later",
     "require": {
        "php": "^7.3.0",
-        "dazzlesoftware/utilities": "^1.0"
+        "dazzlesoftware/utilities": "^1.0|^2.0"
     },
     "require-dev": {
-        "dazzlesoftware/dazzle-coding-standard": "^1.0",
+        "dazzlesoftware/dazzle-coding-standard": "^1.0|^2.0",
         "symfony/yaml": "^3.4|^4.4|^5.0",
         "phpunit/phpunit": "^9.0"
     },
